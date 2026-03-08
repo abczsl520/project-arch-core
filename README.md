@@ -26,7 +26,7 @@ Keep every file small enough for AI agents to read and edit without blowing the 
 | Language/Framework | Skill | Status |
 |-------------------|-------|--------|
 | **Node.js** (Express, H5 Games, Data Tools) | [nodejs-project-arch](https://github.com/abczsl520/nodejs-project-arch) | ✅ Available |
-| **React** / Next.js | `react-project-arch` | 🔲 Planned |
+| **React** / Vite | [react-project-arch](https://github.com/abczsl520/react-project-arch) | ✅ Available |
 | **Python** (FastAPI/Flask/Django) | `python-project-arch` | 🔲 Community welcome |
 | **Go** | `go-project-arch` | 🔲 Community welcome |
 

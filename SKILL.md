@@ -97,7 +97,7 @@ This skill provides the universal foundation. For concrete directory structures,
 | Language/Framework | Skill | Status |
 |-------------------|-------|--------|
 | Node.js (Express) | [nodejs-project-arch](https://github.com/abczsl520/nodejs-project-arch) | ✅ Available |
-| React / Next.js | `react-project-arch` | 🔲 Planned |
+| React / Vite | [react-project-arch](https://github.com/abczsl520/react-project-arch) | ✅ Available |
 | Python (FastAPI/Flask) | `python-project-arch` | 🔲 Community welcome |
 | Go | `go-project-arch` | 🔲 Community welcome |
 
