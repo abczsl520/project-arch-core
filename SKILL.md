@@ -112,3 +112,14 @@ If you're building a `<lang>-project-arch` skill, follow these core principles a
 5. **Project type references** — separate files for different project types
 
 Keep the same naming convention: `<lang>-project-arch` with `references/` subdirectory.
+
+### Quality Checklist for Language Skills
+
+Before publishing, verify your skill passes these:
+
+- [ ] Can a developer copy the directory structure and start coding immediately?
+- [ ] Entry point example is real, runnable code (not pseudocode)?
+- [ ] Config pattern uses the language's idiomatic approach (not a generic JSON example)?
+- [ ] Splitting rules table covers the 2-3 most common monolith patterns in that ecosystem?
+- [ ] At least 2 project type references (e.g., web app + CLI, or API + worker)?
+- [ ] Tested on a real project — not just theoretical?

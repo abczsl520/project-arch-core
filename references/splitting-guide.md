@@ -2,10 +2,29 @@
 
 Language-agnostic guide for deciding when and how to split files.
 
+## Quick Token Estimate
+
+Before deciding, estimate how much context a file eats:
+
+```
+Tokens ≈ lines × 13   (average for code files)
+Context % ≈ tokens / 200,000 × 100
+```
+
+| Lines | ~Tokens | Context % | Verdict |
+|-------|---------|-----------|---------|
+| 100 | 1.3K | 0.7% | ✅ Fine |
+| 200 | 2.6K | 1.3% | ✅ Fine |
+| 400 | 5.2K | 2.6% | ⚠️ Limit |
+| 800 | 10.4K | 5.2% | ❌ Split |
+| 2000 | 26K | 13% | 🔥 Urgent |
+
+Rule of thumb: if reading one file costs >3% of context, split it.
+
 ## Step 1: Should I Split?
 
 ```
-File > 400 lines?
+File > 400 lines (or >3% context)?
   ├─ YES → Split (proceed to Step 2)
   └─ NO
       ├─ File has 3+ unrelated responsibilities? → Split
